@@ -1,20 +1,19 @@
 <resources>
     <string name="app_name">Calcu02</string>
-    <string name="one">1</string>
-    <string name="two">2</string>
-    <string name="tree">3</string>
-    <string name="four">4</string>
-    <string name="five">5</string>
-    <string name="six">6</string>
-    <string name="seven">7</string>
-    <string name="eight">8</string>
-    <string name="nine">9</string>
-    <string name="plus">+</string>
-    <string name="zero">0</string>
-    <string name="minus">-</string>
-    <string name="multiply">*</string>
-    <string name="result">=</string>
-    <string name="division">/</string>
-
-    <string name="reset">C</string>
+    <string name="reset1">contentDescription</string>
+    <string name="button1">contentDescription</string>
+    <string name="button2">contentDescription</string>
+    <string name="button3">contentDescription</string>
+    <string name="button4">contentDescription</string>
+    <string name="button5">contentDescription</string>
+    <string name="button6">contentDescription</string>
+    <string name="button7">contentDescription</string>
+    <string name="button8">contentDescription</string>
+    <string name="button9">contentDescription</string>
+    <string name="plus">contentDescription</string>
+    <string name="button11">contentDescription</string>
+    <string name="minus">contentDescription</string>
+    <string name="multiply">contentDescription</string>
+    <string name="result">contentDescription</string>
+    <string name="division">contentDescription</string>
 </resources>

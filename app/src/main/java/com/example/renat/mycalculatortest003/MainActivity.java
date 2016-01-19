@@ -4,6 +4,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
@@ -15,22 +16,22 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     public static final int RESULT = 5;
     public static final int RESET = 6;
     TextView textView;
-    Button button1;
-    Button button2;
-    Button button3;
-    Button button4;
-    Button button5;
-    Button button6;
-    Button button7;
-    Button button8;
-    Button button9;
-    Button plus;
-    Button button11;
-    Button minus;
-    Button multiply;
-    Button division;
-    Button result;
-    Button reset;
+    ImageButton button1;
+    ImageButton button2;
+    ImageButton button3;
+    ImageButton button4;
+    ImageButton button5;
+    ImageButton button6;
+    ImageButton button7;
+    ImageButton button8;
+    ImageButton button9;
+    ImageButton plus;
+    ImageButton button11;
+    ImageButton minus;
+    ImageButton multiply;
+    ImageButton division;
+    ImageButton result;
+    ImageButton reset;
 
     double a,b,c;
 
@@ -42,22 +43,22 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         super.onCreate(savedInstanceState);
         setContentView(R.layout.calc);
         textView = (TextView) findViewById(R.id.textView);
-        button1 = (Button) findViewById(R.id.button1);
-        button2 = (Button) findViewById(R.id.button2);
-        button3 = (Button) findViewById(R.id.button3);
-        button4 = (Button) findViewById(R.id.button4);
-        button5 = (Button) findViewById(R.id.button5);
-        button6 = (Button) findViewById(R.id.button6);
-        button7 = (Button) findViewById(R.id.button7);
-        button8 = (Button) findViewById(R.id.button8);
-        button9 = (Button) findViewById(R.id.button9);
-        plus = (Button) findViewById(R.id.plus);
-        button11 = (Button) findViewById(R.id.button11);
-        minus = (Button) findViewById(R.id.minus);
-        multiply = (Button) findViewById(R.id.multiply);
-        result = (Button) findViewById(R.id.result);
-        division = (Button) findViewById(R.id.division);
-        reset = (Button) findViewById(R.id.reset);
+        button1 = (ImageButton) findViewById(R.id.button1);
+        button2 = (ImageButton) findViewById(R.id.button2);
+        button3 = (ImageButton) findViewById(R.id.button3);
+        button4 = (ImageButton) findViewById(R.id.button4);
+        button5 = (ImageButton) findViewById(R.id.button5);
+        button6 = (ImageButton) findViewById(R.id.button6);
+        button7 = (ImageButton) findViewById(R.id.button7);
+        button8 = (ImageButton) findViewById(R.id.button8);
+        button9 = (ImageButton) findViewById(R.id.button9);
+        plus = (ImageButton) findViewById(R.id.plus);
+        button11 = (ImageButton) findViewById(R.id.button11);
+        minus = (ImageButton) findViewById(R.id.minus);
+        multiply = (ImageButton) findViewById(R.id.multiply);
+        result = (ImageButton) findViewById(R.id.result);
+        division = (ImageButton) findViewById(R.id.division);
+        reset = (ImageButton) findViewById(R.id.reset);
 
 
         button1.setOnClickListener(this);
@@ -87,44 +88,33 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     public void onClick(View v) {
         switch (v.getId()) {
             case R.id.button1:
-                // This is One
                 pressDigit(1);
                 break;
             case R.id.button2:
-                // This is One
                 pressDigit(2);
                 break;
             case R.id.button3:
-                // This is One
                 pressDigit(3);
                 break;
-
             case R.id.button4:
-                // This is One
                 pressDigit(4);
                 break;
             case R.id.button5:
-                // This is One
                 pressDigit(5);
                 break;
             case R.id.button6:
-                // This is One
                 pressDigit(6);
                 break;
             case R.id.button7:
-                // This is One
                 pressDigit(7);
                 break;
             case R.id.button8:
-                // This is One
                 pressDigit(8);
                 break;
             case R.id.button9:
-                // This is One
                 pressDigit(9);
                 break;
             case R.id.button11:
-                // This is One
                 pressDigit(0);
                 break;
             case R.id.plus:

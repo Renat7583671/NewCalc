@@ -4,6 +4,34 @@
     android:layout_height="match_parent"
     android:orientation="horizontal"
     android:background="#e22525">
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#fffefe"
+        android:layout_weight="1">
+
+
+        <TextView
+            android:text=""
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView"
+            android:layout_weight="2" />
+
+
+        <ImageButton
+            android:src="@drawable/del"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/reset"
+            android:layout_weight="1"
+            android:contentDescription="@string/reset1" />
+
+
+
+
+
+    </TableRow>
 
     <TableRow
         android:layout_width="match_parent"
@@ -17,7 +45,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/button1"
-            android:layout_weight="1" />
+            android:layout_weight="1"
+            android:contentDescription="@string/button1" />
 
 
         <ImageButton
@@ -25,7 +54,9 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/button2"
-            android:layout_weight="1" />
+            android:layout_weight="1"
+            android:contentDescription="@string/button2" />
+
 
 
 
@@ -34,7 +65,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/button3"
-            android:layout_weight="1" />
+            android:layout_weight="1"
+            android:contentDescription="@string/button3"/>
 
     </TableRow>
 
@@ -49,7 +81,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/button4"
-            android:layout_weight="1" />
+            android:layout_weight="1"
+            android:contentDescription="@string/button4"/>
 
 
         <ImageButton
@@ -57,7 +90,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/button5"
-            android:layout_weight="1" />
+            android:layout_weight="1"
+            android:contentDescription="@string/button5"/>
 
 
 
@@ -66,7 +100,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/button6"
-            android:layout_weight="1" />
+            android:layout_weight="1"
+            android:contentDescription="@string/button6"/>
     </TableRow>
 
     <TableRow
@@ -80,7 +115,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/button7"
-            android:layout_weight="1" />
+            android:layout_weight="1"
+            android:contentDescription="@string/button7"/>
 
 
         <ImageButton
@@ -88,7 +124,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/button8"
-            android:layout_weight="1" />
+            android:layout_weight="1"
+            android:contentDescription="@string/button8"/>
 
 
         <ImageButton
@@ -96,7 +133,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/button9"
-            android:layout_weight="1" />
+            android:layout_weight="1"
+            android:contentDescription="@string/button9" />
     </TableRow>
 
     <TableRow
@@ -110,7 +148,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/plus"
-            android:layout_weight="1" />
+            android:layout_weight="1"
+            android:contentDescription="@string/plus"/>
 
 
         <ImageButton
@@ -118,7 +157,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/button11"
-            android:layout_weight="1" />
+            android:layout_weight="1"
+            android:contentDescription="@string/button11"/>
 
 
         <ImageButton
@@ -126,7 +166,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/minus"
-            android:layout_weight="1" />
+            android:layout_weight="1"
+            android:contentDescription="@string/minus" />
 
 
     </TableRow>
@@ -142,7 +183,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/multiply"
-            android:layout_weight="1" />
+            android:layout_weight="1"
+            android:contentDescription="@string/multiply"/>
 
 
         <ImageButton
@@ -150,7 +192,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/result"
-            android:layout_weight="1" />
+            android:layout_weight="1"
+            android:contentDescription="@string/result" />
 
 
         <ImageButton
@@ -158,41 +201,10 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/division"
-            android:layout_weight="1" />
+            android:layout_weight="1"
+            android:contentDescription="@string/division" />
 
     </TableRow>
-
-    <TableRow
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="#c28f8f"
-        android:layout_weight="1">
-
-
-        <ImageButton
-            android:src="@drawable/del"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/reset"
-            android:layout_weight="1" />
-
-
-
-        <ImageButton
-            android:src="@drawable/del"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/textView"
-            android:layout_weight="1" />
-        <ImageButton
-            android:src="@drawable/del"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/textView1"
-            android:layout_weight="1" />
-    </TableRow>
-
-
 
 
 </TableLayout>
